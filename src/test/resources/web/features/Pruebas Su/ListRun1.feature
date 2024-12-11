@@ -16,3 +16,10 @@ Feature: #Here the title is described
     Examples:
       | field | field2 |
       | data  | data2  |
+      
+  #Here the scenario is described
+  Scenario: scenario title
+    Given preconditions
+    When actions
+    Then validations
+    
