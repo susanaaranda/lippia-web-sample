@@ -36,3 +36,13 @@ Feature: #Here the title is described
     Examples:
       | field | field2 |
       | data  | data2  |
+      
+   #Here the scenario is described
+  Scenario Outline: scenario title <field> <field2>
+    Given preconditions
+    When actions
+    Then validations
+    
+    Examples:
+      | field | field2 |
+      | data  | data2  |
