@@ -1,3 +1,8 @@
 {
   "role": "ADMIN_ROLE_LTM"
 }
+#Here the scenario is described
+  Scenario: scenario title
+    Given preconditions
+    When actions
+    Then validations
