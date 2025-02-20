@@ -1,15 +1,15 @@
 Indentifier:
 001
 Title:
-Loguearse en la aplicación
+Crear incidencia exitosamente
 Tags:
-@Login
+@Issue
 Description:
-Permitir al usuario loguearse e ingresar a la aplicación
+Permitir al usuario crear incidencias
 Preconditions:
 Poseer un usuario y contraseña validos
 Steps:
 1- Ingresar usuario y contraseña
 2- Hacer click en el botón Login
 Expected Results:
-Visualizar el Home de la aplicación
+Visualizar la incidencia creada
