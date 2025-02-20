@@ -1,7 +1,7 @@
 Indentifier:
 002
 Title:
-Loguearse en la aplicación LTM exitosamente
+Loguearse en la aplicación exitosamente
 Tags:
 @Login
 Description:
@@ -12,4 +12,4 @@ Steps:
 1- Ingresar usuario y contraseña
 2- Hacer click en el botón Login
 Expected Results:
-Visualizar el Home de la aplicación LTM
+Visualizar el Home de la aplicación
