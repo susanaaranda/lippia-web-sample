@@ -1,0 +1,23 @@
+Tags:
+@Login @Smoke
+
+Identifier:
+TC01
+
+Title:
+Login Exitoso
+
+Description:
+Verificar que el usuario pueda acceder con usuario y contraseña correctos.
+
+Preconditions:
+El usuario debe estar registrado.
+
+Steps:
+1. Dirigirse a la pagina de Login
+ 2. Ingresar crecenciales validas
+ 3. Hacer click en boton "Continuar"
+
+Expected Result:
+El sistema muestra la pantalla principal sin errores.
+
