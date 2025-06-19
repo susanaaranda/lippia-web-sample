@@ -1,6 +1,8 @@
-Indentifier:
+Identifier:
+0235
 
 Title:
+Prueba
 
 Tags:
 
@@ -9,5 +11,7 @@ Description:
 Preconditions:
 
 Steps:
+1.Ingresar
 
-Expected Results:
+Expected Result:
+Muestra
