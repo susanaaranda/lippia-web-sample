@@ -1,0 +1,21 @@
+@Web @Projects @NewProject @Regression
+Feature: Creacion de Proyectos
+
+  @Smoke @EliminarCreacionesWeb @Automated
+  Scenario Outline: Crear proyecto Proyecto de Automation exitosamente
+    Given el cliente está logueado con el usuario de automation
+    And el idioma del sistema está en <idioma>
+    And El cliente realiza un click sobre el boton Nuevo
+    And El cliente completa el campo Nombre Proyecto de Automation
+    And El cliente completa el campo Codigo
+    And completa el campo Descripcion Proyecto de Automation
+    And click sobre el boton Guardar
+    Then se recibe un mensaje de <mensaje>
+    When guardo el ultimo proyecto creado
+    
+    
+    
+    @ES
+    Examples:
+      | idioma | mensaje         |
+      | ES     | Proyecto creado |
