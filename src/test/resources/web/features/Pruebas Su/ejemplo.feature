@@ -9,7 +9,8 @@ Feature: Creacion de Proyectos
     And El cliente completa el campo Nombre Proyecto de Automation
     And El cliente completa el campo Codigo
     And completa el campo Descripcion Proyecto de Automation
-    When The client search for word Docker
+    When hace click en el boton Siguiente
+    
     
 
     
