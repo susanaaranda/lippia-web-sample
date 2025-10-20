@@ -9,10 +9,10 @@ Feature: Creacion de Proyectos
     And El cliente completa el campo Nombre Proyecto de Automation
     And El cliente completa el campo Codigo
     And completa el campo Descripcion Proyecto de Automation
+    When The client search for word Docker
+    And El cliente completa el campo Nombre Proyecto de Automation
+    Then muestra mensaje 
     And click sobre el boton Guardar
-    Then se recibe un mensaje de <mensaje>
-    When guardo el ultimo proyecto creado
-    
     
     
     @ES
