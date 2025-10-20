@@ -12,7 +12,6 @@ Feature: Creacion de Proyectos
     When The client search for word Docker
     And El cliente completa el campo Nombre Proyecto de Automation
     Then muestra mensaje 
-    And click sobre el boton Guardar
     
     
     @ES
