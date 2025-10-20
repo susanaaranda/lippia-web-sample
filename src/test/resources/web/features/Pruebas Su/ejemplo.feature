@@ -11,8 +11,7 @@ Feature: Creacion de Proyectos
     And completa el campo Descripcion Proyecto de Automation
     When The client search for word Docker
     And El cliente completa el campo Nombre Proyecto de Automation
-    Then muestra mensaje 
-    
+
     
     @ES
     Examples:
