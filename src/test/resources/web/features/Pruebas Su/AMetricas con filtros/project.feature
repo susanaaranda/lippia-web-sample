@@ -1,14 +1,14 @@
-@Regression 
+@Project
 Feature: #Aquí se describe el título
   Aquí se describe el feature
   
-  @Issue @Smoke
+  @Smoke
   Scenario: título del escenario
     Given precondiciones
     When acciones
     Then validaciones
       
-  @Issue
+  #Aquí se describe el scenario
   Scenario Outline: título del escenario <campo> <campo2>
     Given precondiciones
     When acciones
