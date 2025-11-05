@@ -2,7 +2,7 @@
 Feature: #Aquí se describe el título
   Aquí se describe el feature
   
-  @NoCandidate
+  @Candidate
   Scenario: título del escenario
     Given precondiciones
     When acciones
