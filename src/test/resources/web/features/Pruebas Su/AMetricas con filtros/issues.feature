@@ -18,7 +18,7 @@ Feature: #Aquí se describe el título
       | campo | campo2 |
       | dato  | dato2  |
       
-  @Automated
+  @Automated @Issue
   Scenario Outline: Integrar una herramienta de gestion desde el boton Agregar (<idioma>/<herramientaDeGestion>)
     Given Existe el proyecto Proyecto de Automation creado por automation
     And el cliente está logueado con el usuario de automation
@@ -45,7 +45,7 @@ Feature: #Aquí se describe el título
       | EN     | Gitlab               | RepositorioFeatureAutomation | Integration created |
       | EN     | Github               | RepositorioFeatureAutomation | Integration created |
 
-  @Candidate
+  @Candidate @Issue
   Scenario Outline: Visualizar listado de incidencias desde Proyecto (<idioma>/<herramientaDeGestion>)
     Given Existe el proyecto Proyecto de Automation creado por automation
     And el cliente está logueado con el usuario de automation
@@ -71,7 +71,7 @@ Feature: #Aquí se describe el título
       | idioma | herramientaDeGestion | integracion                  |
       | EN     | Gitlab               | RepositorioFeatureAutomation |
 
-  @NoCandidate
+  @NoCandidate @Issue
   Scenario Outline: Integrar una misma herramienta de gestion con distinto proyecto desde el boton Agregar (<idioma>/<herramientaDeGestion>)
     Given Existe el proyecto Proyecto de Automation creado por automation
     And el cliente está logueado con el usuario de automation
