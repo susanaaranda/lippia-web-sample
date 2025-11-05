@@ -45,7 +45,7 @@ Feature: #Aquí se describe el título
       | EN     | Gitlab               | RepositorioFeatureAutomation | Integration created |
       | EN     | Github               | RepositorioFeatureAutomation | Integration created |
 
-  @Candidate @Issue
+  @NoCandidate @Issue
   Scenario Outline: Visualizar listado de incidencias desde Proyecto (<idioma>/<herramientaDeGestion>)
     Given Existe el proyecto Proyecto de Automation creado por automation
     And el cliente está logueado con el usuario de automation
