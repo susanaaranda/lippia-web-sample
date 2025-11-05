@@ -1,4 +1,4 @@
-@Run @Smoke
+@Run @Regression
 Feature: #Aquí se describe el título
   Aquí se describe el feature
   
