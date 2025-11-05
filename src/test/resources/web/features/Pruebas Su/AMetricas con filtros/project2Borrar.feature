@@ -1,7 +1,7 @@
 @Web @Projects @Regression
-Feature: Creacion de Proyectos
+Feature: Creacion de Proyectos a borrar
 
-  @Automated @Smoke
+@Automated @Smoke
   Scenario Outline: Crear proyecto Proyecto de Automation exitosamente
     Given el cliente está logueado con el usuario de automation
     And el idioma del sistema está en <idioma>
