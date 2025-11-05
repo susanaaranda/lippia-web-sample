@@ -25,7 +25,7 @@ Feature: Creacion de Proyectos
       | idioma | mensaje         |
       | EN     | Project created |
 
-  @Smoke
+  @Smoke @ToBeAutomated
   Scenario Outline: Crear proyecto Proyecto de Automation exitosamente sin credenciales configuradas
     Given el cliente se loguea con el usuario de credentials
     And El cliente realiza un click sobre el boton Nuevo
@@ -49,14 +49,14 @@ Feature: Creacion de Proyectos
       | idioma | nombreProyecto         |
       | EN     | Proyecto de Automation |
 
-  @Smoke
+  @Smoke@ToBeAutomated
   Scenario: Descartar creacion de proyecto
     Given el cliente está logueado con el usuario de automation
     And El cliente realiza un click sobre el boton Nuevo
     When click sobre el boton Descartar
     Then el usuario visualiza todos los proyectos en la pantalla de Proyectos
 
-
+  @Candidate
   Scenario Outline: Crear proyecto con un codigo ya existente (<idioma>)
     Given Existe un proyecto Proyecto codigo repetido creado por usuario automation con el repositorio RepositorioFeatureAutomation asociado con el gestor de Gitlab
     And el cliente está logueado con el usuario de automation

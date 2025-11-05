@@ -8,7 +8,7 @@ Feature: #Aquí se describe el título
     When acciones
     Then validaciones
       
-  @Issue
+  @Issue @Candidate
   Scenario Outline: título del escenario <campo> <campo2>
     Given precondiciones
     When acciones

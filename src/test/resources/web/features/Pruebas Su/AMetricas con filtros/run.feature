@@ -2,7 +2,23 @@
 Feature: #Aquí se describe el título
   Aquí se describe el feature
   
-  #Aquí se describe el scenario
+  @NoCandidate
+  Scenario: título del escenario
+    Given precondiciones
+    When acciones
+    Then validaciones
+      
+  @NoCandidate
+  Scenario Outline: título del escenario <campo> <campo2>
+    Given precondiciones
+    When acciones
+    Then validaciones
+    
+    Examples:
+      | campo | campo2 |
+      | dato  | dato2  |
+      
+  @ToBeAutomated
   Scenario: título del escenario
     Given precondiciones
     When acciones
@@ -18,23 +34,7 @@ Feature: #Aquí se describe el título
       | campo | campo2 |
       | dato  | dato2  |
       
-  #Aquí se describe el scenario
-  Scenario: título del escenario
-    Given precondiciones
-    When acciones
-    Then validaciones
-      
-  #Aquí se describe el scenario
-  Scenario Outline: título del escenario <campo> <campo2>
-    Given precondiciones
-    When acciones
-    Then validaciones
-    
-    Examples:
-      | campo | campo2 |
-      | dato  | dato2  |
-      
-  
+  @ToBeAutomated
   Scenario Outline: Crear una nueva ejecución <nombreRun> desde el botón Agregar, incluyendo todos los escenarios. Gestor: <gestor> en idioma <idioma>
     Given Existe un proyecto Proyecto de Automation creado por usuario automation con el repositorio <repositorio> asociado con el gestor de <gestor>
     And el cliente está logueado con el usuario de automation
@@ -61,7 +61,7 @@ Feature: #Aquí se describe el título
       | ES     | Run de Automation | RepositorioFolderFeatureAutomation | main | Configurar datos | Seleccionar filtros | Github    |
       | ES     | Run de Automation | RepositorioFolderFeatureAutomation | main | Configurar datos | Seleccionar filtros | Bitbucket |
 
-  
+  @Candidate
   Scenario Outline: Crear run <nombreRun> desde la pagina de Ejecuciones con <gestor> (<idioma>)
     Given Existe un proyecto Proyecto de Automation creado por usuario automation con el repositorio <repositorio> asociado con el gestor de <gestor>
     And el cliente está logueado con el usuario de automation
