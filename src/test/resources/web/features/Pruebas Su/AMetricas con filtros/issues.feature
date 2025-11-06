@@ -2,13 +2,13 @@
 Feature: #Aquí se describe el título
   Aquí se describe el feature
   
-  @Issue @Smoke
+  @Issue @Smoke @Automated
   Scenario: título del escenario
     Given precondiciones
     When acciones
     Then validaciones
       
-  @Issue @Candidate
+  @Issue @Candidate @Smoke
   Scenario Outline: título del escenario <campo> <campo2>
     Given precondiciones
     When acciones
@@ -18,7 +18,7 @@ Feature: #Aquí se describe el título
       | campo | campo2 |
       | dato  | dato2  |
       
-  @Automated @Issue
+  @Automated @Issue @Smoke
   Scenario Outline: Integrar una herramienta de gestion desde el boton Agregar (<idioma>/<herramientaDeGestion>)
     Given Existe el proyecto Proyecto de Automation creado por automation
     And el cliente está logueado con el usuario de automation
