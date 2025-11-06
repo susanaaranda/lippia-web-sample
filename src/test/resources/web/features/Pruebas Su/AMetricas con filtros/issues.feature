@@ -1,4 +1,4 @@
-@Regression 
+@Regression @Web
 Feature: #Aquí se describe el título
   Aquí se describe el feature
   
