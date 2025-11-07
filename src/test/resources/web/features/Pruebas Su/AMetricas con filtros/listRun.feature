@@ -1,4 +1,4 @@
-@Web @ListRun
+@Web @ListRun @Regression
 Feature: #Here the title is described
   Here the feature is described
   
