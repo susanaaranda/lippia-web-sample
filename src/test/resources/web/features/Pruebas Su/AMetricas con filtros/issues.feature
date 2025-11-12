@@ -3,7 +3,7 @@ Feature: #Aquí se describe el título
   Aquí se describe el feature
   
   @Issue @Smoke @Automated
-  Scenario: título del escenario
+  Scenario: título del escenario ejemplo
     Given precondiciones
     When acciones
     Then validaciones
