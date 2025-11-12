@@ -1,38 +1,5 @@
 @Run @Regression
-Feature: #Aquí se describe el título
-  Aquí se describe el feature
-  
-  @Candidate
-  Scenario: título del escenario
-    Given precondiciones
-    When acciones
-    Then validaciones
-      
-  @Candidate
-  Scenario Outline: título del escenario <campo> <campo2>
-    Given precondiciones
-    When acciones
-    Then validaciones
-    
-    Examples:
-      | campo | campo2 |
-      | dato  | dato2  |
-      
-  @ToBeAutomated
-  Scenario: título del escenario
-    Given precondiciones
-    When acciones
-    Then validaciones
-      
-  @Candidate
-  Scenario Outline: título del escenario <campo> <campo2>
-    Given precondiciones
-    When acciones
-    Then validaciones
-    
-    Examples:
-      | campo | campo2 |
-      | dato  | dato2  |
+Feature: Creación de ejecuciones
       
   @ToBeAutomated
   Scenario Outline: Crear una nueva ejecución <nombreRun> desde el botón Agregar, incluyendo todos los escenarios. Gestor: <gestor> en idioma <idioma>

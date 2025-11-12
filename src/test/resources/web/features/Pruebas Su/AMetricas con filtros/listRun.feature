@@ -1,23 +1,6 @@
 @Web @ListRun @Regression
-Feature: #Here the title is described
-  Here the feature is described
+Feature: Gestión de lista de ejecuciones
   
-  @Automated
-  Scenario: scenario title
-    Given preconditions
-    When actions
-    Then validations
-      
-  @ToBeAutomated
-  Scenario Outline: scenario title <field> <field2>
-    Given preconditions
-    When actions
-    Then validations
-    
-    Examples:
-      | field | field2 |
-      | data  | data2  |
-      
   @Smoke @ES @EN @Candidate
   Scenario: Buscar run por rango de fecha de modificacion
     Given Existe una run Run de Automation creado por usuario de automation con estado UNEXECUTED para el proyecto Proyecto de Automation con el gestor Gitlab y asociado a Ningún Gestor
