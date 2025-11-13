@@ -1,7 +1,7 @@
 @Regression @Web
 Feature: Gestión de incidencias
   
-  @Automated @Issue @Smoke
+  @Automated @Issues @Smoke
   Scenario Outline: Integrar una herramienta de gestion desde el boton Agregar (<idioma>/<herramientaDeGestion>)
     Given Existe el proyecto Proyecto de Automation creado por automation
     And el cliente está logueado con el usuario de automation
@@ -28,7 +28,7 @@ Feature: Gestión de incidencias
       | EN     | Gitlab               | RepositorioFeatureAutomation | Integration created |
       | EN     | Github               | RepositorioFeatureAutomation | Integration created |
 
-  @NoCandidate @Issue
+  @NoCandidate @Issues
   Scenario Outline: Visualizar listado de incidencias desde Proyecto (<idioma>/<herramientaDeGestion>)
     Given Existe el proyecto Proyecto de Automation creado por automation
     And el cliente está logueado con el usuario de automation
@@ -54,7 +54,7 @@ Feature: Gestión de incidencias
       | idioma | herramientaDeGestion | integracion                  |
       | EN     | Gitlab               | RepositorioFeatureAutomation |
 
-  @NoCandidate @Issue
+  @NoCandidate @Issues
   Scenario Outline: Integrar una misma herramienta de gestion con distinto proyecto desde el boton Agregar (<idioma>/<herramientaDeGestion>)
     Given Existe el proyecto Proyecto de Automation creado por automation
     And el cliente está logueado con el usuario de automation
