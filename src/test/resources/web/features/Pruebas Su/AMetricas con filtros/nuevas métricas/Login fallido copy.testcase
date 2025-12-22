@@ -1,0 +1,23 @@
+Tags:
+@Login @Smoke
+
+Identifier:
+TC02
+
+Title:
+Login fallido
+
+Description:
+Verificar que el usuario no pueda acceder con usuario y contraseña invalidos.
+
+Preconditions:
+El usuario debe estar registrado.
+
+Steps:
+1. Dirigirse a la pagina de Login
+ 2. Ingresar crecenciales invalidas
+ 3. Hacer click en boton "Continuar"
+
+Expected Result:
+El sistema muestra un mensaje de error.
+
