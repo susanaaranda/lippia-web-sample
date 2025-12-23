@@ -2,13 +2,13 @@
 Feature: #Here the title is described
   Here the feature is described
   
-  @IA
+  @IA @NoCandidate
   Scenario: scenario title
     Given preconditions
     When actions
     Then validations
       
-  @Issue
+  @Issue @Candidate
   Scenario Outline: scenario title <field> <field2>
     Given preconditions
     When actions
@@ -18,13 +18,13 @@ Feature: #Here the title is described
       | field | field2 |
       | data  | data2  |
       
-  @ListRun
+  @ListRun @ToBeAutomated
   Scenario: scenario title
     Given preconditions
     When actions
     Then validations
       
-  @Run
+  @Run @Automated
   Scenario Outline: scenario title <field> <field2>
     Given preconditions
     When actions
